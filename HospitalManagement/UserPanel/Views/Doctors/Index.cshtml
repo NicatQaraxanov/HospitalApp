@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Doctor>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Doctors</h2>
+		</div>
+	</div>
+    <br /><br />
+
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Name
+			    </th>
+                <th>
+                    Surname
+			    </th>
+                <th>
+                    Age
+			    </th>
+                <th>
+                    Position
+			    </th>
+                <th>
+                    Experience
+			    </th>
+                <th>
+                    Patients
+			    </th>
+                <th></th>
+		    </tr>
+	    </thead>
+        <tbody>
+            @foreach(var obj in Model)
+            {
+                <tr>
+                    <td>
+                        @obj.Name
+				    </td>
+                    <td>
+                        @obj.Surname
+				    </td>
+                    <td>
+                        @obj.Age
+				    </td>
+                    <td>
+                        @obj.Position
+				    </td>
+                    <td>
+                        @obj.Experience Years
+				    </td>
+                    <td>
+                        @obj.DoctorPatients.Count()
+				    </td>
+                    <td class="text-center">
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Doctors" asp-action="Apply" asp-route-id="@obj.Id"
+                            class="btn btn-primary mx-2"> <i class="bi bi-journal-arrow-down"></i> Apply</a>
+					    </div>
+				    </td>
+			    </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

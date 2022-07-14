@@ -1,0 +1,46 @@
+﻿@model Doctor
+
+<form method="post" asp-action="Delete">
+	<input asp-for="Id" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Doctor</h2>
+			<hr />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name"></label>
+			<input asp-for="Name" disabled class="form-control" minlength="3"/>
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Surname"></label>
+			<input asp-for="Surname" disabled class="form-control" minlength="3"/>
+			<span asp-validation-for="Surname" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Age"></label>
+			<input asp-for="Age" disabled type="number" class="form-control" />
+			<span asp-validation-for="Age" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Position"></label>
+			<input asp-for="Position" disabled class="form-control" minlength="3"/>
+			<span asp-validation-for="Position" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Experience"></label>
+			<input asp-for="Experience" disabled type="number" class="form-control" />
+			<span asp-validation-for="Experience" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+		<a asp-controller="Doctors" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

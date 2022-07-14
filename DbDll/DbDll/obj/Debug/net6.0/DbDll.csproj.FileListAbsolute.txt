@@ -1,0 +1,14 @@
+C:\Users\tnqar\source\repos\DbDll\DbDll\bin\Debug\net6.0\DbDll.deps.json
+C:\Users\tnqar\source\repos\DbDll\DbDll\bin\Debug\net6.0\DbDll.runtimeconfig.json
+C:\Users\tnqar\source\repos\DbDll\DbDll\bin\Debug\net6.0\DbDll.dll
+C:\Users\tnqar\source\repos\DbDll\DbDll\bin\Debug\net6.0\ref\DbDll.dll
+C:\Users\tnqar\source\repos\DbDll\DbDll\bin\Debug\net6.0\DbDll.pdb
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.AssemblyInfoInputs.cache
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.AssemblyInfo.cs
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.csproj.CoreCompileInputs.cache
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.dll
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\ref\DbDll.dll
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.pdb
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.genruntimeconfig.cache
+C:\Users\tnqar\source\repos\DbDll\DbDll\obj\Debug\net6.0\DbDll.csproj.AssemblyReference.cache

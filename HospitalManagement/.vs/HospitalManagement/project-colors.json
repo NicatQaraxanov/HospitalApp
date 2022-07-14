@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "574548d6-4ff7-4d01-96ad-7fc17c54e564": {
+      "ProjectGuid": "574548d6-4ff7-4d01-96ad-7fc17c54e564",
+      "DisplayName": "AdminPanel",
+      "ColorIndex": 0
+    },
+    "29b01802-5c54-4de1-9bda-d8546cb6a47b": {
+      "ProjectGuid": "29b01802-5c54-4de1-9bda-d8546cb6a47b",
+      "DisplayName": "Admin Panel",
+      "ColorIndex": 1
+    },
+    "0d2a8ab2-23a1-4d05-ac60-d3c03ed71dbd": {
+      "ProjectGuid": "0d2a8ab2-23a1-4d05-ac60-d3c03ed71dbd",
+      "DisplayName": "AdminPanel",
+      "ColorIndex": 2
+    },
+    "ecb99b9b-4b00-4e04-91c1-f61c539dfe9b": {
+      "ProjectGuid": "ecb99b9b-4b00-4e04-91c1-f61c539dfe9b",
+      "DisplayName": "UserPanel",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,26 @@
+﻿@using AdminPanel.DTOs
+@model AdminDto
+@{
+    Layout = "~/Views/Shared/LoginRegister.cshtml";
+}
+
+<div class="row">
+            <div class="colm-form">
+                <div class="form-container">
+                    <form method="post" asp-action="Register">
+                        <input type="text" asp-for="Username" minlength="6" placeholder="Username">
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                        <input asp-for="Password" type="password" minlength="6" placeholder="Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                        <button class="btn-login" type="submit">Register</button>
+                        <a class="btn-new" asp-controller="Login" asp-action="Index">Login</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
